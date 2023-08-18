@@ -4,17 +4,90 @@
 <head>
 	<meta charset="utf-8">
 	<title>Prarthana Agrawal CV</title>
+	<style>
+		h1{
+			text-transform: titlecase;
+			font-family: Optima, fancy;
+			text-align: center;
+			color: teal;
+			font-size: 40px;
+			font-stretch: ultra-expanded;
+		}
+		h2, h3{
+			font-family: Optima, sans-serif;
+			color:teal;
+			text-decoration: underline;
+		}
+		
+		#intro{
+			text-transform: titlecase;
+			color: black;
+			/*border: 1px solid steelblue;*/
+			padding: 2px;
+			width:40%;
+			text-align: center
+
+		}
+
+		a:link, a:visited {
+		  text-decoration: none;
+		  background-color: none;
+		  border: 0px solid blue;
+		  color: steelblue;
+		  display: inline;
+		  width: 200px;
+		  text-align: center;
+		  margin-bottom: 1px;
+		}
+
+		a:hover, a:active {
+		  background-color: none;
+		  color: teal;
+		}
+		.center {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+		.solid {
+			border-style: solid;
+			border-width: 1px;
+			padding: 2px;
+			border-color: teal;
+		}
+		/*hr{
+			width:50%;
+			text-align:left;
+			margin-left:0	
+		}		*/
+		table,tr,td{
+			text-align: left;
+			border: 0px;
+			border-collapse: collapse;
+		}
+		td.date{
+			text-align:center;
+			vertical-align: top;
+			border: 0px;
+			border-style: none;
+			border-color:lightgray;
+		}
+		tr:nth-child(odd){
+			background-color: lightgray;
+			opacity:1;
+		}
+	</style>
 </head>
 
 <body>
-	<h1> Prarthana Agrawal </h1>
+	<h1 id="top"> Prarthana  Agrawal </h1>
 	<div>
-		<img src="mypic.jpg" width=200 height=160 alt="Photo of a person">
-		<p>I am a DPhil student working on <a href="http://www-thphys.physics.ox.ac.uk/people/ArdLouis/research.shtml" target="_blank" title="Ard Louis Research"> the physics of biological evolution </a> at the <a href="https://www.physics.ox.ac.uk/research/subdepartment/rudolf-peierls-centre-theoretical-physics" target="_blank" title="rudolf-peierls-centre-theoretical-physics"> Rudolf Peierls Center for Theoretical Physics</a>, University of Oxford.</p>
+		<img src="mypic.jpg" width=300 height=260 alt="Photo of a person" class="center">
+		<p class="solid center" id="intro">I am a DPhil student working on <a href="http://www-thphys.physics.ox.ac.uk/people/ArdLouis/research.shtml" target="_blank" title="Ard Louis Research"> the physics of biological evolution </a> at the <a href="https://www.physics.ox.ac.uk/research/subdepartment/rudolf-peierls-centre-theoretical-physics" target="_blank" title="rudolf-peierls-centre-theoretical-physics"> Rudolf&nbsp;Peierls&nbsp;Center&nbsp;for&nbsp; Theoretical&nbsp;Physics</a>, University&nbsp;of&nbsp;Oxford.</p>
 	</div>
 
 	<section>
-		<h2> Links to sections of the page </h2>
+		<h3> Links to sections of the page </h3>
 		<ul>
 			<li><a href="#research"> Research Experience</a></li>
 			<li><a href="#education"> Education </a></li>
@@ -29,28 +102,32 @@
 		<h3> Research Experience </h3>
 		<table>
 			<tr>
-				<td>Master's thesis <br> Under <a href="https://tu-dresden.de/mn/physik/itp/tfp/die-professur/inhaber" target="_blank" title="Prof Matthias Vojta"> Prof Matthias Vojta</a>, TU Dresden <br>Strain engineering of quantum spin liquids </td>
-				<td> Jun&nbsp;2022 </td>
-				<td> - </td>
-				<td> Apr&nbsp;2023 </td>
+				<td> Strain engineering of quantum spin liquids <br> Under <a href="https://tu-dresden.de/mn/physik/itp/tfp/die-professur/inhaber" target="_blank" title="Prof Matthias Vojta"> Prof Matthias Vojta</a>, TU Dresden <br> Master's thesis  </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Jun&nbsp;2022 </td>
+				<td class="date"> - </td>
+				<td class="date"> Apr&nbsp;2023 </td>
 			</tr>
 			<tr>
-				<td> Semester Project <br> Under <a href="https://www.iisertirupati.ac.in/sudipta/" target="_blank" title="Dr Sudipta Dutta"> Dr Sudipta Dutta </a>, IISER Tirupati <br> Magnetism in graphene Sierpinski triangles </td>
-				<td> Dec&nbsp;2021 </td>
-				<td> - </td>
-				<td> May&nbsp;2022 </td>
+				<td> Magnetism in graphene Sierpinski triangles  <br> Under <a href="https://www.iisertirupati.ac.in/sudipta/" target="_blank" title="Dr Sudipta Dutta"> Dr Sudipta Dutta </a>, IISER Tirupati <br> Semester Project  </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Dec&nbsp;2021 </td>
+				<td class="date"> - </td>
+				<td class="date"> May&nbsp;2022 </td>
 			</tr>
 			<tr>
-				<td> Semester Project <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br> Critical dynamics in chiral disordered systems </td>
-				<td> Aug&nbsp;2021 </td>
-				<td> - </td>
-				<td> Nov&nbsp;2021 </td>
+				<td> Critical dynamics in chiral disordered systems <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br> Semester Project  </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Aug&nbsp;2021 </td>
+				<td class="date"> - </td>
+				<td class="date"> Nov&nbsp;2021 </td>
 			</tr>
 			<tr>
-				<td> Summer Internship <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br> Anderson localization and zero modes in graphene </td>
-				<td> May&nbsp;2021 </td>
-				<td> - </td>
-				<td> Jul&nbsp;2021 </td>
+				<td> Anderson localization and zero modes in graphene  <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br>Summer Internship </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> May&nbsp;2021 </td>
+				<td class="date"> - </td>
+				<td class="date"> Jul&nbsp;2021 </td>
 			</tr>
 		</table>
 	</section>
@@ -60,15 +137,17 @@
 		<table>
 			<tr>
 				<td> University of Oxford, UK <br> DPhil Theoretical Physics under <a href="https://www.physics.ox.ac.uk/our-people/louis" target="_blank" title="ArdLouis"> Prof Ard Louis </a></td>
-				<td> Oct&nbsp;2023 </td>
-				<td> - </td>
-				<td> Present </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Oct&nbsp;2023 </td>
+				<td class="date"> - </td>
+				<td class="date"> Present </td>
 			</tr>
 			<tr>
 				<td> Indian Institute of Science Education and Research Tirupati, India  <br> BS-MS (Physics) with CGPA 9.7/10 (Rank-I in class, gold medal)  </td>
-				<td> Aug&nbsp;2018 </td>
-				<td> - </td>
-				<td> Jul&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Aug&nbsp;2018 </td>
+				<td class="date"> - </td>
+				<td class="date"> Jul&nbsp;2023 </td>
 			</tr>
 		</table>
 	</section>
@@ -78,43 +157,107 @@
 		<table>
 			<tr>
 				<td> Institute gold medal for academic excellence </td>
-				<td> Jul&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Jul&nbsp;2023 </td>
 			</tr>
 			<tr>
 				<td> Narotam Sekhsaria postgraduate scholarship </td>
-				<td> May&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> May&nbsp;2023 </td>
 			</tr>
 			<tr>
 				<td> Oxford-Radcliffe graduate scholarship </td>
-				<td> Apr&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Apr&nbsp;2023 </td>
 			</tr>
 			<tr>
 				<td> Gates Cambridge scholarship</td>
-				<td> Mar&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Mar&nbsp;2023 </td>
 			</tr>
 			<tr>
 				<td> Cambridge Trust and Newnham scholarship </td>
-				<td> Feb&nbsp;2023 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Feb&nbsp;2023 </td>
 			</tr>
 			<tr>
-				<td> Academic excellence awards at IISER Tirupati in semesters I, II, III, IV, V, VI and VIII </td>
-				<td> Apr&nbsp;2022 </td>
+				<td> Academic excellence awards at IISER Tirupati in seven out of eight semesters </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Apr&nbsp;2022 </td>
 			</tr>
 			<tr>
 				<td> DAAD WISE scholarship </td>
-				<td> Mar&nbsp;2022 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Mar&nbsp;2022 </td>
 			</tr>
 			<tr>
-				<td> C.N.R Rao education foundation prizes at IISER Tirupati in semesters I and II </td>
-				<td> Apr&nbsp;2020 </td>
+				<td> C.N.R Rao education foundation prizes at IISER Tirupati in two semesters</td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Apr&nbsp;2020 </td>
 			</tr>
 			<tr>
 				<td> INSPIRE scholarship for higher education by the Govt. of India </td>
-				<td> Apr&nbsp;2018 </td>
+				<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+				<td class="date"> Apr&nbsp;2018 </td>
 			</tr>
 		</table>
 	</section>
 
+	<section id="conferences">
+		<h3> Workshops, Conferences and Competitive Exams </h3>
+		<table>
+			<tr>
+				<td> German physical society (DPG) conference of women in physics (Karlsruhe) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> SFB 1143’s conference on correlated magnetism (Radebeul) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> German physical society (DPG) condensed matter physics conference (Regensburg) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td>American physical society (APS) conference for undergraduate women in physics (online) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> Build-a-detector workshop by Newton Bhabha & LIGO-India (teamwork)  
+				Workshop on gravitational wave detection and analysis (best conceptual design prize) </td>
+				<td class="date"> 2021 </td>
+			</tr>
+			<tr>
+				<td>Decoherence (physics) competition organized by IISc Bangalore (teamwork)  
+				First prize against teams from MIT and NYU </td>
+				<td class="date"> 2021 </td>
+			</tr>
+			<tr>
+				<td> National graduate physics examination (by the Indian association of physics teachers)  
+				State topper for Andhra Pradesh state </td>
+				<td class="date"> 2020 </td>
+			</tr>
+			<tr>
+				<td> National science camp (Vijyoshi) at IISER Bhopal
+				<td class="date"> 2019 </td>
+			</tr>
+			<tr>
+				<td> National science talent search examination (by Unified Council)  
+				National rank (overall): 77, National rank (physics): 6 </td>
+				<td class="date"> 2018 </td>
+			</tr>
+		</table>
+	</section>
+
+	<section id="skills">
+		<h3> Skills </h3>
+		<ul>
+			<li> Python, Fortran, HTML, CSS, Javascript </li>
+			<li> LaTeX, Origin, Mathematica </li>
+		</ul>
+	</section>
+
+	<p> <a href="#top"> Back to top </a></p>
 	<hr>
 	<footer> &copy; Prarthana Agrawal 2023 </footer>
 </body>
