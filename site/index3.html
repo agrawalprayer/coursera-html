@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Prarthana Agrawal</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+
+		*{
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+			overflow-x: hidden;
+		}
+
+		body{
+			background-color: black;
+			color: white;
+			font-family: helvetica, sans-serif;
+			width: 100%;
+		}
+
+		#background {
+		  background-image: url('bgimage.jpg');
+		  height: 700px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  /*background-attachment: fixed;*/
+		}
+
+		div#container{
+			/*background-color: lightgray;*/
+			position: relative;
+			top: 100px;
+			left:150px;
+			height: 400px;
+		}
+
+		#image {
+			width: 250px;
+			height: 250px;
+			position:relative;
+			top: 29px;
+			left: 30px;
+			border-radius: 50%;
+
+		}
+
+		#title{
+			font-size: 45px;
+			font-family: sans-serif;
+			position: absolute;
+			top: 35px;
+			left: 350px;
+			/*background-color: pink;*/
+			width: 390px;
+			color: white;
+		}
+
+		#location{
+			position: absolute;
+			left: 350px;
+			top: 95px;
+			text-transform: uppercase;
+			font-family: sans-serif;
+			color: white;
+		}
+
+		#introtext{
+			position: absolute;
+			top: 170px;
+			left: 350px;
+			width: 330px;
+			font-size: 17px;
+			color: white;
+			/*background-color: yellow;*/
+		}
+
+		div#social-media-container{
+			position: absolute;
+			right: 25px;
+			top: 5px;
+			height: 60px;
+			/*border: 1px solid blue;*/
+		}
+
+		.social-media-link{
+			position: relative;
+			margin-left: 5px;
+			margin-right: 5px;
+			font-size: 35px;
+			left: 5px;
+			top: 5px;
+		}
+
+		a:link, a:visited {
+		  text-decoration: none;
+		  background-color: none;
+		  border: 0px solid blue;
+		  color: black;
+		  display: inline;
+		  width: 200px;
+		  text-align: center;
+		  margin-bottom: 1px;
+		}
+
+		a:hover, a:active {
+		  background-color: none;
+		  color: steelblue;
+		}
+
+		.cvcontent{
+			padding: 40px;
+			font-family: sans-serif;
+			/*border: 1px white solid;*/
+			width: 100%;
+			position: relative;
+			left: 0px;
+			color: black;
+			background-color: lightblue;
+
+		}
+
+		.cvcontent>h2{
+			margin-bottom: 25px;
+			margin-top: 40px;
+		}
+
+		.spacer{
+			height: 100px;
+		}
+
+		table,tr,td{
+			text-align: left;
+			border: 0px;
+			border-collapse: separate;
+			border-spacing: 40px 15px;
+			/*margin-right: auto;
+			margin-left: auto;*/
+		}
+
+		td.date{
+			text-align:center;
+			vertical-align: top;
+			border: 0px;
+			border-style: none;
+			border-color:lightgray;
+		}
+
+	</style>
+</head>
+
+<body>
+	<!-- BACKGROUND -->
+	<section id="background">
+
+		<!-- SOCIAL MEDIA BUTTONS -->
+		<div id="social-media-container">
+
+			<a class="social-media-link" href="https://www.linkedin.com/in/prarthana-agrawal-8930bb1aa/" target="_blank" title="prarthana-agrawal-8930bb1aa">
+			<i class="fa fa-linkedin-square" style="color: black"></i></a>
+
+			<a class="social-media-link" href="https://twitter.com/agrawalprayer" target="_blank" title="agrawalprayer">
+			<i class="fa fa-twitter-square" style="color: black"></i></a>
+
+		</div>
+
+		<!-- IMAGE -->
+		<div id="container">
+
+			<img id="image" src="lights_mypic.jpg">
+			<p id="title"> Prarthana&nbsp;Agrawal </p>
+			<p id="location"> Oxford, United Kingdom </p>
+			<p id="introtext"> I am a DPhil student working on <a href="http://www-thphys.physics.ox.ac.uk/people/ArdLouis/research.shtml" target="_blank"> the physics of biological evolution </a> at the <a href="https://www.physics.ox.ac.uk/research/subdepartment/rudolf-peierls-centre-theoretical-physics" target="_blank"> Rudolf Peierls Center for Theoretical Physics</a>, University&nbsp;of&nbsp;Oxford. </p>
+			
+		</div>
+
+	</section>
+
+	<p class="spacer">	</p>
+
+	<!-- CV CONTENT -->
+	<section class="cvcontent">
+
+		<!-- RESEARCH EXPERIENCE -->
+		<h2> Research Experience </h2>
+		<table>
+			<tr>
+				<td> <b> Strain engineering of quantum spin liquids </b> <br> Under <a href="https://tu-dresden.de/mn/physik/itp/tfp/die-professur/inhaber" target="_blank" title="Prof Matthias Vojta"> Prof Matthias Vojta</a>, TU Dresden <br> Master's thesis  </td>
+				<!--<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>-->
+				<td class="date"> Jun&nbsp;2022 </td>
+				<td class="date"> - </td>
+				<td class="date"> Apr&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> <b> Magnetism in graphene Sierpinski triangles </b> <br> Under <a href="https://www.iisertirupati.ac.in/sudipta/" target="_blank" title="Dr Sudipta Dutta"> Dr Sudipta Dutta </a>, IISER Tirupati <br> Semester Project  </td>
+				<!--<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>-->
+				<td class="date"> Dec&nbsp;2021 </td>
+				<td class="date"> - </td>
+				<td class="date"> May&nbsp;2022 </td>
+			</tr>
+			<tr>
+				<td> <b> Critical dynamics in chiral disordered systems </b> <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br> Semester Project  </td>
+				<!--<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>-->
+				<td class="date"> Aug&nbsp;2021 </td>
+				<td class="date"> - </td>
+				<td class="date"> Nov&nbsp;2021 </td>
+			</tr>
+			<tr>
+				<td> <b> Anderson localization and zero modes in graphene </b> <br> Under <a href="http://www.iisertirupati.ac.in/faculty/sambuddha/sambuddha.php" target="_blank" title="Dr Sambuddha Sanyal"> Dr Sambuddha Sanyal </a>, IISER Tirupati <br>Summer Internship </td>
+				<!--<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>-->
+				<td class="date"> May&nbsp;2021 </td>
+				<td class="date"> -</td>
+				<td class="date"> Jul&nbsp;2021 </td>
+			</tr>
+		</table>
+
+		<!-- EDUCATION -->
+		<h2> Education </h2>
+		<table>
+			<tr>
+				<td> <b> University of Oxford, UK </b> <br> DPhil Theoretical Physics under <a href="https://www.physics.ox.ac.uk/our-people/louis" target="_blank" title="ArdLouis"> Prof Ard Louis </a></td>
+				<td class="date"> Oct&nbsp;2023 </td>
+				<td class="date"> - </td>
+				<td class="date"> Present </td>
+			</tr>
+			<tr>
+				<td> <b> Indian Institute of Science Education and Research Tirupati, India  </b> <br> BS-MS (Physics) with CGPA 9.7/10 (Rank-I in class, Gold medal)  </td>
+				<td class="date"> Aug&nbsp;2018 </td>
+				<td class="date"> - </td>
+				<td class="date"> Jul&nbsp;2023 </td>
+			</tr>
+		</table>
+
+		<!-- CAREER HIGHLIGHTS -->
+		<h2> Career Highlights </h2>
+		<table>
+			<tr>
+				<td> Institute gold medal for academic excellence </td>
+				<td class="date"> Jul&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> Narotam Sekhsaria postgraduate scholarship </td>
+				<td class="date"> May&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> Oxford-Radcliffe graduate scholarship </td>
+				<td class="date"> Apr&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> Gates Cambridge scholarship</td>
+				<td class="date"> Mar&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> Cambridge Trust and Newnham scholarship </td>
+				<td class="date"> Feb&nbsp;2023 </td>
+			</tr>
+			<tr>
+				<td> Academic excellence awards at IISER Tirupati in seven out of eight semesters </td>
+				<td class="date"> Apr&nbsp;2022 </td>
+			</tr>
+			<tr>
+				<td> DAAD WISE scholarship </td>
+				<td class="date"> Mar&nbsp;2022 </td>
+			</tr>
+			<tr>
+				<td> C.N.R Rao education foundation prizes at IISER Tirupati in two semesters</td>
+				<td class="date"> Apr&nbsp;2020 </td>
+			</tr>
+			<tr>
+				<td> INSPIRE scholarship for higher education by the Govt. of India </td>
+				<td class="date"> Apr&nbsp;2018 </td>
+			</tr>
+		</table>
+
+		<h2> Workshops, Conferences and Competitive Exams </h2>
+		<table>
+			<tr>
+				<td> German physical society (DPG) conference of women in physics (Karlsruhe) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> SFB 1143’s conference on correlated magnetism (Radebeul) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> German physical society (DPG) condensed matter physics conference (Regensburg) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td>American physical society (APS) conference for undergraduate women in physics (online) </td>
+				<td class="date"> 2022 </td>
+			</tr>
+			<tr>
+				<td> Build-a-detector workshop by Newton Bhabha & LIGO-India (teamwork)  
+				Workshop on gravitational wave detection and analysis (best conceptual design prize) </td>
+				<td class="date"> 2021 </td>
+			</tr>
+			<tr>
+				<td>Decoherence (physics) competition organized by IISc Bangalore (teamwork)  
+				First prize against teams from MIT and NYU </td>
+				<td class="date"> 2021 </td>
+			</tr>
+			<tr>
+				<td> National graduate physics examination (by the Indian association of physics teachers)  
+				State topper for Andhra Pradesh state </td>
+				<td class="date"> 2020 </td>
+			</tr>
+			<tr>
+				<td> National science camp (Vijyoshi) at IISER Bhopal
+				<td class="date"> 2019 </td>
+			</tr>
+			<tr>
+				<td> National science talent search examination (by Unified Council)  
+				National rank (overall): 77, National rank (physics): 6 </td>
+				<td class="date"> 2018 </td>
+			</tr>
+		</table>
+	</section>
+
+	<hr>
+	<footer> &copy; Prarthana Agrawal 2023 </footer>
+</body>
+</html>
