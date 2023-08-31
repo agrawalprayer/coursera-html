@@ -9,6 +9,14 @@
 		
 		*{
 			box-sizing: border-box;
+		}		
+
+		html{
+			height: 100%;
+		}
+
+		body{
+			background-color: lightcyan;
 		}
 
 		table,tr,td{
@@ -18,75 +26,85 @@
 			border-spacing: 10px 15px;
 			padding: 8px;
 			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1200px;
 		}
 
 		tr:nth-child(even){
-			background-color: lightgray;
+			background-color: lightblue;
 			opacity:1;
+		}
+
+		thead>tr{
+			text-align: center; 
+			background-color: lightgray; 
+			height:40px;  
+			font-size: 16px;
+			color: black;
+			font-family: arial;
+		}
+
+		#container{
+			position: relative;
+			background-color: white;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid lightblue;
+			color: teal;
+			font-family: arial;
+			text-align: center;
+			width: 1200px;
+			margin-right: auto;
+			margin-left: auto
 		}
 
 	</style>
 </head>
 
 <body>
-	<h1> Undergraduate Research Interships </h1>
+	<div id="container">
+		<h1 id="top"> Undergraduate Research Interships </h1>
+	</div>
 
 	<section>
-		<h2> India </h2>
 		<table>
-			<thead><tr style="text-align: center; background-color: lightgray; height: 40px; font-size: 19px;">
-				<th title="Field #1" style="width: 30%">Internship Program</th>
-				<th title="Field #2" style="width: 10%">Organisation</th>
-				<th title="Field #3" style="width: 15%">Eligibility (BSMS years) </th>
-				<th title="Field #4" style="width: 20%">Subject</th>
-				<th title="Field #5" style="width: 10%">Duration</th>
-			</tr></thead>
-			<tbody>
-								<tr><td> <a href=https://www.icts.res.in/academic/long-term-visiting-student-program>ICTS Long Term Visiting Students Program</a></td><td>ICTS-TIFR</td><td>5</td><td>Physics, Maths, (Biology)</td><td>1-2 semesters</td></tr>
-				<tr><td> <a href=https://www.icts.res.in/academic/summer-research-program>S. N. Bhatt Memorial Excellence Fellowship Program</a></td><td>ICTS-TIFR</td><td>2*, 3, 4, 5</td><td>Physics, Maths, (Biology)</td><td>2 months</td></tr>
-				<tr><td> <a href=https://www.jncasr.ac.in/academic/fandeprogrammes/srfp>Summer Research Fellowship Program (SRFP)</a></td><td>INSA-IASc-NASI</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology</td><td>2 months</td></tr>
-				<tr><td> <a href=https://www.tifr.res.in/~vsrp/>Visiting Students' Research Programme (VSRP)</a></td><td>TIFR</td><td>3, 4, 5</td><td>Physics, Maths, Chemistry, Biology</td><td>2 months</td></tr>
-				<tr><td> <a href=https://www.barc.gov.in/student/>Bhabha Atomic Research Centre</a></td><td>BARC</td><td>3, 4</td><td>Physics, Chemistry, Biology, (Maths)</td><td>2-6 months</td></tr>
-				<tr><td> <a href=https://sfp.iitm.ac.in/>Summer Fellowship Programme</a></td><td>IIT Madras</td><td>3, 4</td><td>Physics, Chemistry, Maths</td><td>2 months</td></tr>
-				<tr><td> <a href=https://spark.iitr.ac.in/>Spark internship</a></td><td>IIT Roorkee</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology</td><td>2-3 months</td></tr>
-				<tr><td> <a href=http://webapps.iitbbs.ac.in/internship-application/>Internship program for summer</a></td><td>IIT Bhubaneswar</td><td>1, 2, 3, 4, 5</td><td>Physics, Maths, Chemistry, Biology</td><td>1-2 months</td></tr>
-				<tr><td> <a href=https://www.imsc.res.in/summer_research_programme>Summer Research Programme</a></td><td>IMSC Chennai</td><td>2, 3, 4</td><td>Theoretical Physics, Maths, Computational Biology</td><td>2 months</td></tr>
-				<tr><td> <a href=http://nius.hbcse.tifr.res.in/>National Initiative on Undergraduate Science (NIUS)</a></td><td>HBCSE (TIFR)</td><td>1</td><td>Physics, Astronomy, Chemistry, Biology</td><td>-</td></tr>
-				<tr><td> <a href=https://www.jncasr.ac.in/academic/fandeprogrammes/pobe>Project Oriented Biological Education (POBE)</a></td><td>JNCASR</td><td>1</td><td>Biology</td><td>1-2 months (three consecutive years)</td></tr>
-				<tr><td> <a href=http://www.saha.ac.in/web/education/course-programmes-undergraduate-associateship>Undergraduate Associateship in
-				Physics and Biophysical Sciences</a></td><td>SINP Kolkata</td><td>2</td><td>Physics, Biophysics</td><td>3 months (spread over UG years)</td></tr>
-				<tr><td> <a href=https://www.saha.ac.in/web/summer-program>Summer Student Program</a></td><td>SINP Kolkata</td><td>4</td><td>Physics, Biophysics</td><td>2 months</td></tr>
-				<tr><td> <a href=https://newweb.bose.res.in/AcademicProgrammes/SRP.jsp>Summer Research Program </a></td><td>S.N. Bose National Centre for Basic Sciences</td><td>4, 5</td><td>Physics, Chemistry, Maths, Biophysics</td><td>2 months</td></tr>
-				<tr><td> <a href=http://www3.iiserpune.ac.in/~sspc/>IISER Pune Summer Student Program</a></td><td>IISER Pune</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology</td><td>1-2 months</td></tr>
-			</tbody>
-		</table>
-	</section>
-
-	<section>
-		<h2> Abroad </h2>
-
-		<table>
-			<thead><tr style="text-align: center; background-color: lightgray; height:40px;  font-size: 19px;">
-				<th title="Field #1" style="width: 25%">Internship Program</th>
+			<thead><tr>
+				<th title="Field #1" style="width: 20%">Internship Program</th>
 				<th title="Field #2" style="width: 10%">Organisation</th>
 				<th title="Field #3" style="width: 10%">Country</th>
-				<th title="Field #4" style="width: 15%">Eligibility (BSMS years) </th>
-				<th title="Field #5" style="width: 20%">Subject</th>
-				<th title="Field #6" style="width: 10%">Duration</th>
+				<th title="Field #4" style="width: 10%">Eligibility <br> (BSMS years) </th>
+				<th title="Field #5" style="width: 15%">Subject</th>
+				<th title="Field #6" style="width: 10%">Deadline</th>
+				<th title="Field #7" style="width: 10%">Duration</th>
 			</tr></thead>
 			<tbody>
-				<tr>
-					<td> <a href="https://www.icts.res.in/academic/long-term-visiting-student-program"> Mitacs Globalink Research Internship </a></td>
-					<td>Mitacs</td>
-					<td>Canada</td>
-					<td>4, 5</td>
-					<td>Physics, Maths, Chemistry, Biology</td>
-					<td>3 months</td>
-				</tr>
+				<tr><td> <a href=https://www.icts.res.in/academic/long-term-visiting-student-program>ICTS Long Term Visiting Students Program</a></td><td>ICTS-TIFR</td><td>India</td><td>5</td><td>Physics, Maths, Biology</td><td>-</td><td>1-2 semesters</td></tr>
+				<tr><td> <a href=https://www.icts.res.in/academic/summer-research-program>S. N. Bhatt Memorial Excellence Fellowship Program</a></td><td>ICTS-TIFR</td><td>India</td><td>2*, 3, 4, 5</td><td>Physics, Maths, Biology</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=https://www.jncasr.ac.in/academic/fandeprogrammes/srfp>Summer Research Fellowship Program (SRFP)</a></td><td>JNCASR-INSA-IASc-NASI</td><td>India</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology, ECS</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=https://www.tifr.res.in/~vsrp/>Visiting Students' Research Programme (VSRP)</a></td><td>TIFR</td><td>India</td><td>3, 4, 5</td><td>Physics, Maths, Chemistry, Biology</td><td>Jan-Feb</td><td>2-3 months</td></tr>
+				<tr><td> <a href=https://www.barc.gov.in/student/>Bhabha Atomic Research Centre</a></td><td>BARC</td><td>India</td><td>3, 4</td><td>Physics, Chemistry, Biology, Maths</td><td>-</td><td>2-6 months</td></tr>
+				<tr><td> <a href=https://sfp.iitm.ac.in/>Summer Fellowship Programme</a></td><td>IIT Madras</td><td>India</td><td>3, 4</td><td>Physics, Chemistry, Maths</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=https://spark.iitr.ac.in/>Spark internship</a></td><td>IIT Roorkee</td><td>India</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology</td><td>-</td><td>2-3 months</td></tr>
+				<tr><td> <a href=http://webapps.iitbbs.ac.in/internship-application/>Internship program for summer</a></td><td>IIT Bhubaneswar</td><td>India</td><td>1, 2, 3, 4, 5</td><td>Physics, Maths, Chemistry, Biology</td><td>Last week of April</td><td>1-2 months</td></tr>
+				<tr><td> <a href=https://www.imsc.res.in/summer_research_programme>Summer Research Programme</a></td><td>IMSC Chennai</td><td>India</td><td>2, 3, 4</td><td>Theoretical Physics, Maths, Computational Biology</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=http://nius.hbcse.tifr.res.in/>National Initiative on Undergraduate Science (NIUS)</a></td><td>HBCSE (TIFR)</td><td>India</td><td>1</td><td>Physics, Astronomy, Chemistry, Biology</td><td>-</td><td>-</td></tr>
+				<tr><td> <a href=https://www.jncasr.ac.in/academic/fandeprogrammes/pobe>Project Oriented Biological Education (POBE)</a></td><td>JNCASR</td><td>India</td><td>1</td><td>Biology</td><td>-</td><td>1-2 months (three consecutive years)</td></tr>
+				<tr><td> <a href=http://www.saha.ac.in/web/education/course-programmes-undergraduate-associateship>Undergraduate Associateship in
+				Physics and Biophysical Sciences</a></td><td>SINP Kolkata</td><td>India</td><td>2</td><td>Physics, Biophysics</td><td>-</td><td>3 months (spread over UG years)</td></tr>
+				<tr><td> <a href=https://www.saha.ac.in/web/summer-program>Summer Student Program</a></td><td>SINP Kolkata</td><td>India</td><td>4</td><td>Physics, Biophysics</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=https://newweb.bose.res.in/AcademicProgrammes/SRP.jsp>Summer Research Program</a></td><td>S.N. Bose National Centre for Basic Sciences</td><td>India</td><td>4, 5</td><td>Physics, Chemistry, Maths, Biophysics</td><td>-</td><td>2 months</td></tr>
+				<tr><td> <a href=http://www3.iiserpune.ac.in/~sspc/>IISER Pune Summer Student Program</a></td><td>IISER Pune</td><td>India</td><td>2, 3, 4</td><td>Physics, Maths, Chemistry, Biology</td><td>-</td><td>1-2 months</td></tr>
+				<tr><td> <a href=https://www.iucaa.in/en/education/summer-winter-programmes/vacation-students-programme>Vacation Students' Programme</a></td><td>IUCAA Pune</td><td>India</td><td>3, 4</td><td>Physics</td><td>March-April</td><td>1-2 months</td></tr>
+				<tr><td> <a href=https://admission.iist.ac.in/internship/>IIST Summer internship</a></td><td>IIST</td><td>India</td><td>3</td><td>Physics</td><td>Last week of April</td><td>2-3 months</td></tr>
+				<tr><td> <a href=https://www.mitacs.ca/en/programs/globalink/globalink-research-internship>MITACS Globalink Research Internship</a></td><td>Canadian Universities</td><td>Canada</td><td>3, 4</td><td>Physics, Chemistry, Maths, Biology, ECS</td><td>Mid September</td><td>2-3 months</td></tr>
+				<tr><td> <a href=https://www.eso.org/sci/meetings/2023/SummerResearch2023.html>Summer Research Programme</a></td><td>European Southern Observatory (ESO)</td><td>Germany</td><td>3, 4, 5</td><td>Physics</td><td>Application deadline around January</td><td>1-2 months</td></tr>
+				<tr><td> <a href=https://leaps.strw.leidenuniv.nl/>Leiden/ESA Astrophysics Program for Summer Students (LEAPS)</a></td><td>Leiden Observatory and ESA</td><td>Netherlands</td><td>1, 2, 3, 4, 5</td><td>Physics</td><td>-</td><td>1-2 months</td></tr>
 			</tbody>
 	</section>
 
-	<!--<hr>
+	<!--<a href="#top"> Back to top </a>
+	<hr>
 	<footer> Created with love by &copy;Prarthana Agrawal <br> Last updated: Aug 2023 </footer>-->
 
 </body>
