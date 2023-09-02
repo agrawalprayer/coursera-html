@@ -6,155 +6,42 @@
 	<title> rekindled </title>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main-style.css">
 
-	<style>
-
-		*{
-			box-sizing: border-box;
-			padding: 0;
-			margin: 0;
-			overflow-x: hidden;
-		}
-
-		body{
-			background-color: black;
-			color: white;
-			font-family: helvetica, sans-serif;
-			width: 100%;
-		}
-
-		#background {
-		  background-image: url('bgimage.jpg');
-		  height: 700px;
-		  background-position: center;
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  /*background-attachment: fixed;*/
-		}
-
-		div#container{
-			/*background-color: lightgray;*/
-			position: relative;
-			top: 100px;
-			left:150px;
-			height: 400px;
-		}
-
-		#image {
-			width: 250px;
-			height: 250px;
-			position:relative;
-			top: 29px;
-			left: 30px;
-			border-radius: 50%;
-
-		}
-
-		#title{
-			font-size: 45px;
-			font-family: sans-serif;
-			position: absolute;
-			top: 35px;
-			left: 350px;
-			/*background-color: pink;*/
-			width: 390px;
-			color: white;
-		}
-
-		#location{
-			position: absolute;
-			left: 350px;
-			top: 95px;
-			text-transform: uppercase;
-			font-family: sans-serif;
-			color: white;
-		}
-
-		#introtext{
-			position: absolute;
-			top: 170px;
-			left: 350px;
-			width: 330px;
-			font-size: 17px;
-			color: white;
-			/*background-color: yellow;*/
-		}
-
-		div#social-media-container{
-			position: absolute;
-			right: 25px;
-			top: 5px;
-			height: 60px;
-			/*border: 1px solid blue;*/
-		}
-
-		.social-media-link{
-			position: relative;
-			margin-left: 5px;
-			margin-right: 5px;
-			font-size: 35px;
-			left: 5px;
-			top: 5px;
-		}
-
-		a:link, a:visited {
-		  text-decoration: none;
-		  background-color: none;
-		  border: 0px solid blue;
-		  color: black;
-		  display: inline;
-		  width: 200px;
-		  text-align: center;
-		  margin-bottom: 1px;
-		}
-
-		a:hover, a:active {
-		  background-color: none;
-		  color: steelblue;
-		}
-
-		.cvcontent{
-			padding: 40px;
-			font-family: sans-serif;
-			/*border: 1px white solid;*/
-			width: 100%;
-			position: relative;
-			left: 0px;
-			color: black;
-			background-color: lightblue;
-
-		}
-
-		.cvcontent>h2{
-			margin-bottom: 25px;
-			margin-top: 40px;
-		}
-
-		.spacer{
-			height: 100px;
-		}
-
-		table,tr,td{
-			text-align: left;
-			border: 0px;
-			border-collapse: separate;
-			border-spacing: 40px 15px;
-			/*margin-right: auto;
-			margin-left: auto;*/
-		}
-
-		td.date{
-			text-align:center;
-			vertical-align: top;
-			border: 0px;
-			border-style: none;
-			border-color:lightgray;
-		}
-
-	</style>
 </head>
 
 <body>
+	 <a href="index.html">  <div id="website-name"> <img id="logo" src="torch.png"> <h1> rekindled </h1>
+	 </div></a> 
+	<!-- BACKGROUND -->
+	<section id="background">
+
+		<!-- SOCIAL MEDIA BUTTONS -->
+		<div id="social-media-container">
+
+			<a class="social-media-link" href="https://www.linkedin.com/in/prarthana-agrawal-8930bb1aa/" target="_blank" title="prarthana-agrawal-8930bb1aa">
+			<i class="fa fa-linkedin-square" style="color: black"></i></a>
+
+			<a class="social-media-link" href="https://twitter.com/agrawalprayer" target="_blank" title="agrawalprayer">
+			<i class="fa fa-twitter-square" style="color: black"></i></a>
+
+		</div>
+
+		<!-- IMAGE -->
+		<div id="container">
+
+			<img id="image" src="lights_mypic.jpg">
+			<p id="title"> Prarthana&nbsp;Agrawal </p>
+			<p id="location"> Oxford, United Kingdom </p>
+			<p id="introtext"> I am a DPhil student working on <a style="color: white" href="http://www-thphys.physics.ox.ac.uk/people/ArdLouis/research.shtml" target="_blank"> the physics of biological evolution </a> at the <a style="color: white" href="https://www.physics.ox.ac.uk/research/subdepartment/rudolf-peierls-centre-theoretical-physics" target="_blank"> Rudolf Peierls Center for Theoretical Physics</a>, University&nbsp;of&nbsp;Oxford. </p>
+			
+		</div>
+	</section>
+
+	<a href="cv-page.html"> <button class="button" id="button-cv"> CV </button> </a> 
+	<a href="internship-page.html"> <button class="button" id="button-internship"> UG Internships </button> </a>
+	<a href="contact.html"> <button class="button" id="button-contact"> Contact </button> </a>
+
 	<hr>
 	<footer> &copy; Prarthana Agrawal 2023 </footer>
 </body>

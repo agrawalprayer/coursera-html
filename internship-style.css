@@ -15,9 +15,10 @@ table,tr,td{
 	border-collapse: collapse;
 	border-spacing: 10px 15px;
 	padding: 8px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 30px;
+	margin-top: 60px;
 	/*width: 1200px;*/
 }
 
@@ -36,17 +37,19 @@ thead>tr{
 }
 
 div#container{
+	position: relative;
+	top: 50px;
 	height: 80px;
 	background-color: white;
 	padding-top: 20px ;
 	padding-bottom: 20px;
 	margin-bottom: 10px;
-	border: 1px solid lightblue;
+	border: 2px solid lightblue;
 	color: teal;
 	font-family: arial;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-top: auto;
 	margin-bottom: auto;
 	/*width: 1200px;*/
@@ -62,10 +65,21 @@ div#container{
     opacity: 1.0;
 }
 
-#quote{
+#website-name{
+	position: absolute;
+	top:0;
+	left:0;
+	color: white;
+	background: black;
+	width: 100%;
+	text-align: left;
+}
+
+#logo{
 	position: relative;
-	top:100px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: fancy;
+	top:0;
+	left:2px;
+	width: 40px;
+	height: 40px;
+	float: left;
 }
