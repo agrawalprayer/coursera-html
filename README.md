@@ -1,2 +1,2 @@
-# coursera-html
-coursera html css javascript course
+# Rekindled
+  Webspace created and maintained by Prarthana Agrawal
