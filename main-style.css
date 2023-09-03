@@ -1,204 +1,310 @@
 *{
-			box-sizing: border-box;
-			padding: 0;
-			margin: 0;
-			overflow-x: hidden;
-		}
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
 
-		body{
-			background-color: black;
-			color: white;
-			font-family: helvetica, sans-serif;
-			width: 100%;
-		}
+@font-face {
+  font-family: OpenSans ;
+  src: url(OpenSans-Regular.ttf);
+  font-weight: bold;
+}
 
-		#background {
-		  background-image: url('bgimage.jpg');
-		  height: 600px;
-		  background-position: center;
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  /*background-attachment: fixed;*/
-		}
+@font-face {
+  font-family: Dosis ;
+  src: url('fonts/Dosis-Regular.ttf');
+  font-weight: bold;
+}
 
-		div#container{
-			/*background-color: lightgray;*/
-			position: relative;
-			top: 110px;
-			left:160px;
-			height: 400px;
-		}
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+	background-color: lightcyan;
+	color: black;
+	font-family: OpenSans, helvetica, sans-serif;
+	/*overflow-x: hidden;*/
+	min-width: 1024px;
+	/*width: 100%;*/
+}
 
-		#image {
-			width: 250px;
-			height: 250px;
-			position:relative;
-			top: 29px;
-			left: 30px;
-			border-radius: 50%;
+#website-logo-container{
+	position: relative;
+	top: 0px;
+	/*background-color: orange;*/
+	height: 47px;
+	background-color: black;
+}
 
-		}
+#website-name{
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	color: lightgray;
+	padding: 5px;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Dosis;
+}
 
-		#website-name{
-			position: absolute;
-			top:0;
-			left:0;
-			color: white;
-			background: black;
-			width: 100%;
-			text-align: left;
-			padding: 1px;
-		}
+#logo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+}
 
-		#title{
-			font-size: 45px;
-			font-family: sans-serif;
-			position: absolute;
-			top: 35px;
-			left: 350px;
-			/*background-color: pink;*/
-			width: 390px;
-			color: white;
-		}
+#background-container{
+	position: relative;
+	top: 0px;
+	background: url('bgimage.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+}
 
-		#location{
-			position: absolute;
-			left: 350px;
-			top: 95px;
-			text-transform: uppercase;
-			font-family: sans-serif;
-			color: white;
-		}
-
-		#introtext{
-			position: absolute;
-			top: 170px;
-			left: 350px;
-			width: 330px;
-			font-size: 17px;
-			color: white;
-			/*background-color: yellow;*/
-		}
-
-		div#social-media-container{
-			position: absolute;
-			right: 10px;
-			top: 45px;
-			height: 60px;
-			/*border: 1px solid blue;*/
-		}
-
-		.social-media-link{
-			position: relative;
-			margin-left: 5px;
-			margin-right: 5px;
-			font-size: 35px;
-			left: 5px;
-			top: 5px;
-		}
-
-		a:link, a:visited {
-		  text-decoration: none;
-		  background-color: none;
-		  border: 0px solid blue;
-		  color: black;
-		  display: inline;
-		  width: 200px;
-		  text-align: center;
-		  margin-bottom: 1px;
-		}
-
-		a:hover, a:active {
-		  background-color: none;
-		  color: steelblue;
-		}
-
-		.cvcontent{
-			padding: 40px;
-			font-family: sans-serif;
-			/*border: 1px white solid;*/
-			width: 100%;
-			position: relative;
-			left: 0px;
-			color: black;
-			background-color: lightblue;
-
-		}
-
-		.cvcontent>h2{
-			margin-bottom: 25px;
-			margin-top: 40px;
-		}
-
-		.spacer{
-			height: 100px;
-		}
-
-		table,tr,td{
-			text-align: left;
-			border: 0px;
-			border-collapse: separate;
-			border-spacing: 40px 15px;
-			/*margin-right: auto;
-			margin-left: auto;*/
-		}
-
-		td.date{
-			text-align:center;
-			vertical-align: top;
-			border: 0px;
-			border-style: none;
-			border-color:lightgray;
-		}
-
-		.button {
-		  border: white 1px solid;
-		  color: white;
-		  background: transparent;
-		  padding: 16px 32px;
-		  text-align: center;
-		  text-decoration: none;
-		  display: inline-block;
-		  font-size: 16px;
-		  margin: 4px 2px;
-		  transition-duration: 0.4s;
-		  cursor: pointer;
-		  border-radius: 5%;
-		  width: 180px;
-		}
-
-		.button:hover {
-		  color: white;
-		  background-color: black;
-		  opacity: 0.3;
-		  border: white 1px solid;
-		}
-
-		#button-cv{
-			position: relative;
-			left: 150px;
-			bottom: 100px;
-		}
-
-		#button-internship{
-			position: relative;
-		  	left: 350px;
-		  	bottom: 100px;
-		}
-
-		#button-contact{
-			position: relative;
-		  	left: 550px;
-		  	bottom: 100px;
-		}
-
-		#logo{
-			position: relative;
-			top:0;
-			left:2px;
-			width: 40px;
-			height: 40px;
-			float: left;
-		}
+#image-title-container{
+	/*background-color: lightgray;*/
+	position: relative;
+	top: 65px;
+	left: 190px;
+	/*height: 300px;*/
+	width: 700px;
+}
 
 
+#image{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	border-radius: 50%;
+}
+
+#title{
+	font-size: 40px;
+	position: absolute;
+	left: 350px;	
+	top: 40px;
+	width: 330px;
+	/*background-color: orange;*/
+	color: black;
+}
+
+#location{
+	position: absolute;
+	left: 350px;
+	top: 100px;
+	text-transform: uppercase;
+	color: black;
+}
+
+#introtext{
+	position: absolute;
+	top: 160px;
+	left: 350px;
+	width: 330px;
+	font-size: 17px;
+	color: black;
+	/*background-color: yellow;*/
+}
+
+#social-media-container{
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	height: 60px;
+	/*border: 1px solid blue;*/
+}
+
+#social-media-button{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 35px;
+	left: 5px;
+	top: 5px;
+}
+
+.button{
+  border: lightgray 1px solid;
+  color: lightgray;
+  background: transparent;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0%;
+  width: 180px;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+  opacity: 0.3;
+  border: white 1px solid;
+}
+
+#button-container{
+	position: absolute;
+	bottom: 30px;
+	/*border: 1px solid white;*/
+	width: 800px;
+	height: 70px;
+	left: 250px;
+}
+
+#button-cv{
+	position: absolute;
+	left: 0px;
+}
+
+#button-internship{
+	position: absolute;
+  	left: 300px;
+}
+
+#button-contact{
+	position: absolute;
+  	left: 600px;
+}
+
+footer{
+	background-color: black;
+	color: lightgray;
+}
+
+.cvcontent{
+	margin: 10px;
+	border: 2px lightblue solid;
+	padding: 40px;
+	font-family: sans-serif;
+	/*border: 1px white solid;*/
+	position: relative;
+	left: 0px;
+	color: black;
+}
+
+.cvcontent h2{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.cvcontent>table, .cvcontent>tr, .cvcontent>td{
+	text-align: left;
+	border: 0px;
+	border-collapse: separate;
+	border-spacing: 40px 15px;
+	/*margin-right: auto;
+	margin-left: auto;*/
+}
+
+.cvcontent td.date{
+	text-align:center;
+	vertical-align: top;
+	border: 0px;
+	border-style: none;
+	border-color:lightgray;
+}
+
+a:link, a:visited {
+  text-decoration: underline;
+  background-color: none;
+  border: 0px solid blue;
+  color: black;
+  display: inline;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {
+  background-color: none;
+  color: steelblue;
+}
+
+.spacer{
+	height: 20px;
+}
+
+#CV-heading{
+	background-color: white;
+	height: 80px;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	border: 2px lightblue solid;
+	margin: 10px;
+}
+
+.internship table, .internship tr, .internship td{
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 10px 15px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-top: 60px;
+	/*width: 1200px;*/
+}
+
+.internship tr:nth-child(even){
+	background-color: lightblue;
+	opacity:1;
+}
+
+.internship thead>tr{
+	text-align: center; 
+	background-color: lightgray; 
+	height:40px;  
+	font-size: 16px;
+	color: black;
+	font-family: arial;
+}
+
+#internship-heading{
+	position: relative;
+	top: 20px;
+	height: 80px;
+	background-color: white;
+	padding-top: 20px ;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border: 2px solid lightblue;
+	color: teal;
+	font-family: arial;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	/*width: 1200px;*/
+}
+
+#internship-footer{
+	position: fixed;
+	text-align: center;
+    bottom: 0px ;
+    width: 100%;
+    height: 22px; 
+    background: lightgray ;
+    opacity: 1.0;
+}
+
+#back-to-top{
+	float: left;
+}
+
+#last-updated{
+	float: right;
+}

@@ -2,23 +2,23 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" href="internship-style.css">
+	<link rel="stylesheet" href="main-style.css">
 	<meta charset="utf-8">
 	<title> Science intership database </title>
 	<base target="_blank">
 </head>
 
 <body>
-	<a href="index.html" target="_self">  <div id="website-name"> <img id="logo" src="torch.png"> <h1> rekindled </h1>
-	 </div></a> 
+	<div id="website-logo-container">
+		<a href="index.html" target="_self"> <img id="logo" src="torch.png">
+		<p id="website-name">rekindled</p></a>
+	</div> 
 
-	<div id="container">
+	<div id="internship-heading">
 		<h1 id="top"> Undergraduate Research Interships </h1>
 	</div>
 
-	
-    <!--<iframe src="csv_to_html.html"></iframe>-->
-
+	<section class="internship">
     <table>
 		<thead><tr>
 			<th title="Field #1" style="width: 20%">Internship Program</th>
@@ -81,15 +81,7 @@
 		<tr><td> <a href=https://geometrynyc.wixsite.com/polymathreu>Online</a></td><td>Polymath Jr</td><td>-</td><td>1, 2, 3, 4, 5</td><td>Maths</td><td>Early Apr</td><td>1-2 months</td></tr>
 		</tbody>
 	</table>
-  
 
-	<div id="footer">
-		<a href="#top" target="_self" style="float: left; margin-left: 10px;"> Back to top</a> 
-		Created with love by &copy;Prarthana Agrawal 
-		<a style="float:right; margin-right:10px;"> Last updated: Sept 2023 </a>
-	</div>
-
-	<hr>
 	<div style="margin-bottom: 50px; margin-left: 25px;"> 
 		<h2 style="margin-bottom: 10px;"> Additional resources: </h2>
 	<ol>
@@ -102,5 +94,15 @@
 		<li> <a href="www.icts.res.in/programs"> www.icts.res.in/programs </a></li> 
 	</ol>
 	</div>
+
+	<div class="spacer"></div>
+	</section>
+
+	<div id="internship-footer">
+		<a href="#top" target="_self" id="back-to-top"> Back to top</a> 
+		Created with love by &copy;Prarthana Agrawal 
+		<a id="last-updated"> Last updated: Sept 2023 </a>
+	</div>
+
 </body>
 </html>
