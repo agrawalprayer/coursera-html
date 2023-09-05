@@ -31,8 +31,9 @@ for i in range(n):
     line5 = "<td>"+str(subject[i])+"</td>"
     line6 = "<td>"+str(deadline[i])+"</td>"
     line7 = "<td>"+str(duration[i])+"</td>"
+    line8  = "<td>"+str(paid[i])+"</td>"
     
-    each_entry = "<tr>" + line1 + line2 + line3 + line4 +line5 + line6 + line7+ "</tr>" +"\n"
+    each_entry = "<tr>" + line1 + line2 + line3 + line4 +line5 + line6 + line7+ line8 + "</tr>" +"\n"
     html_text_file.write(each_entry)
 
 html_text_file.close()

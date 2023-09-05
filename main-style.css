@@ -159,7 +159,7 @@ html, body
 	/*border: 1px solid white;*/
 	width: 800px;
 	height: 70px;
-	left: 250px;
+	left: 20%;
 }
 
 #button-cv{
@@ -215,11 +215,22 @@ footer{
 	border-color:lightgray;
 }
 
-a:link, a:visited {
+a:link {
   text-decoration: underline;
   background-color: none;
   border: 0px solid blue;
   color: black;
+  display: inline;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:visited {
+  text-decoration: underline;
+  background-color: none;
+  border: 0px solid blue;
+  color: brown;
   display: inline;
   width: 200px;
   text-align: center;
