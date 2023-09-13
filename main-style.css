@@ -26,7 +26,7 @@ html, body
 	color: black;
 	font-family: OpenSans, helvetica, sans-serif;
 	/*overflow-x: hidden;*/
-	min-width: fit-content;
+	min-width: fit-content !important;
 	/*width: 100%;*/
 }
 
