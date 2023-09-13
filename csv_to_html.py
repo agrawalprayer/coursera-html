@@ -18,7 +18,7 @@ eligibility = data['Eligibility (BSMS years)'][:n]
 subject = data['Subject'][:n]
 duration = data['Duration'][:n]
 deadline = data['Deadline'][:n]
-paid = data['Paid'][:n]
+paid = data['Funding'][:n]
 
 html_text_file = open("C:/Users/91940/rekindled/csv_to_html.txt","w")
 

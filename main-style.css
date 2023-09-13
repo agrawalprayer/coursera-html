@@ -234,7 +234,7 @@ a:visited {
   text-decoration: underline;
   background-color: none;
   border: 0px solid blue;
-  color: brown;
+  color: steelblue;
   display: inline;
   width: 200px;
   text-align: center;
@@ -243,7 +243,7 @@ a:visited {
 
 a:hover, a:active {
   background-color: none;
-  color: steelblue;
+  color: cadetblue;
 }
 
 .spacer{
@@ -330,6 +330,15 @@ a:hover, a:active {
     opacity: 1.0;
 }
 
+#back-to-top-button{
+	position: relative;
+	bottom: 0px;
+	text-align: left;
+	font-size: 35px;
+	color: steelblue;
+	padding-left: 5px;
+}
+
 #back-to-top{
 	float: left;
 	color: steelblue;
@@ -341,7 +350,7 @@ a:hover, a:active {
 	padding-top: 12px;
 }
 
-#internship-add-rsc{
+#internship-additional-content{
 	margin-left: 30px;
 	margin-bottom: 40px;
 	padding-left: 15px;
