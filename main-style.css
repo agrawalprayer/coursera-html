@@ -26,8 +26,11 @@ html, body
 	color: black;
 	font-family: OpenSans, helvetica, sans-serif;
 	/*overflow-x: hidden;*/
-	min-width: fit-content !important;
 	/*width: 100%;*/
+}
+
+body{
+	min-width: fit-content !important;
 }
 
 #website-logo-container{
@@ -63,7 +66,7 @@ html, body
 	background: url('bgimage.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 560px;
+	height: 563px;
 }
 
 #image-title-container{
@@ -160,7 +163,7 @@ html, body
 	/*border: 1px solid white;*/
 	width: 800px;
 	height: 70px;
-	left: 10%;
+	left: 15%;
 }
 
 #button-cv{
