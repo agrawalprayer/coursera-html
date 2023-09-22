@@ -67,6 +67,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	height: 563px;
+	width: 100%;
 }
 
 #image-title-container{
@@ -163,7 +164,7 @@ body{
 	/*border: 1px solid white;*/
 	width: 800px;
 	height: 70px;
-	left: 15%;
+	left: 25%;
 }
 
 #button-cv{
@@ -354,4 +355,32 @@ a:hover, a:active {
 	margin-left: 30px;
 	margin-bottom: 40px;
 	padding-left: 15px;
+}
+
+#ms-thesis-heading{
+	background-image: url('bgimage.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	background-position: bottom;
+	color: white;
+	text-align: center;
+	border: 0px lightblue solid;
+	margin: 0px;
+	padding-top: 120px;
+}
+
+.ms-thesis-contents{
+	margin: 10px;
+	border: 1px solid lightblue;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 20%;
+
+}
+
+.ms-thesis-contents>div{
+	margin-top: 30px;
 }
