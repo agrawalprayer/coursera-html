@@ -60,20 +60,38 @@ body{
 	height: 50px;
 }
 
+#menu-container{
+	position: absolute;
+	right: 0px;
+	padding-top: 13px;
+	text-decoration: none;
+	color: lightgray;
+	margin-right: 10px;
+}
+
+#menu{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: lightgray;
+}
+
 #background-container{
 	position: relative;
 	top: 0px;
 	background: url('bgimage.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 563px;
+	height: 98%;
 	width: 100%;
 }
 
 #image-title-container{
 	/*background-color: lightgray;*/
 	position: relative;
-	top: 65px;
+	top: 18%;
 	margin-left: auto;
 	margin-right: auto;
 	/*height: 300px;*/
@@ -88,6 +106,7 @@ body{
 	top: 25px;
 	left: 50px;
 	border-radius: 50%;
+	border: 0px solid steelblue;
 }
 
 #title{
@@ -185,6 +204,8 @@ body{
 footer{
 	background-color: black;
 	color: lightgray;
+	padding: 20px;
+	text-align: center;
 }
 
 .cvcontent{
@@ -383,4 +404,27 @@ a:hover, a:active {
 
 .ms-thesis-contents>div{
 	margin-top: 30px;
+}
+
+
+#quote-box{
+	position: relative;
+	top: 5%;
+	width: 98%;
+	margin-left: 1%;
+	height: 20%;
+	padding: 40px;
+	background-color: black;
+	opacity: 0.7;
+	color: lightgray;
+	text-align: center;
+	font-size: 18px;
+}
+
+#instagram-post{
+	position: relative;
+	top: 10%;
+	margin-left: 1%;
+	height: 5%;
+	width: 5%;
 }
