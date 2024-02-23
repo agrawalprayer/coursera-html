@@ -428,3 +428,36 @@ a:hover, a:active {
 	height: 5%;
 	width: 5%;
 }
+
+.teaching-content{
+	margin: 10px;
+	border: 2px lightblue solid;
+	padding: 40px;
+	font-family: sans-serif;
+	/*border: 1px white solid;*/
+	position: relative;
+	left: 0px;
+	color: black;
+}
+
+.teaching-content h1{
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.research-content{
+	margin: 10px;
+	border: 2px lightblue solid;
+	padding: 40px;
+	font-family: sans-serif;
+	/*border: 1px white solid;*/
+	position: relative;
+	left: 0px;
+	color: black;
+}
+
+.research-content h1{
+	margin-bottom: 40px;
+	margin-top: 10px;
+	font-size: 2em;
+}
