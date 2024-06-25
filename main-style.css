@@ -461,3 +461,31 @@ a:hover, a:active {
 	margin-top: 10px;
 	font-size: 2em;
 }
+
+
+.ms-thesis-alumni table, .ms-thesis-alumni tr, .ms-thesis-alumni td{
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 10px 15px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	/*width: 1200px;*/
+}
+
+.ms-thesis-alumni tr:nth-child(even){
+	background-color: lightblue;
+	opacity:1;
+}
+
+.ms-thesis-alumni thead>tr{
+	text-align: center; 
+	background-color: lightgray; 
+	height:40px;  
+	font-size: 16px;
+	color: black;
+	font-family: arial;
+}
